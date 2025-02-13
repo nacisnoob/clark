@@ -1,0 +1,35 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("niggaclark3000 🧻", "DarkTheme")
+local Tab = Window:NewTab("Teleport")
+local Section = Tab:NewSection("Teleport")
+Section:NewButton("MNG Base", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2176.06445, 199.557816, 4446.18604, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Section:NewButton("Bowrey Cubemart", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1598.35205, 216.655014, -1534.57629, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Section:NewButton("Mersea Auto", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6470.3999, 231.996841, 3019.69971, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Section:NewButton("Bowrey Auto", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1810.91406, 221.255737, -1328.6333, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Section:NewButton("Woodbury Auto", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10027.8262, 240.156189, 578.294678, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+local Section = Tab:NewSection("Gushie")
+Section:NewButton("Vopstore", "where you buy barrels", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(657.25116, 269.701813, -1870.01843, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Section:NewButton("Gushie Den", "where you make it", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6750.12158, 496.115051, 620.952393, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Section:NewButton("test", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+end)
