@@ -21,19 +21,6 @@ end)
 Section:NewButton("Woodbury Auto", "", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10027.8262, 240.156189, 578.294678, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
-local Section = Tab:NewSection("Gushie")
-Section:NewButton("Vopstore", "where you buy barrels", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(657.25116, 269.701813, -1870.01843, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-end)
-
-Section:NewButton("Gushie Den", "where you make it", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6750.12158, 496.115051, 620.952393, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-end)
-
-Section:NewButton("test", "", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
-end)
-
 
 
 
