@@ -5,7 +5,7 @@ local Window = Rayfield:CreateWindow({
    Icon = 9327507252, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Femboy Hub | Loading",
    LoadingSubtitle = "by okaynac",
-   Theme = "Serenity", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Bloom", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
-   KeySystem = true, -- Set this to true to use our key system
+   KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
       Title = "Femboy Hub | Key",
       Subtitle = "discord.gg/",
@@ -37,35 +37,35 @@ local Window = Rayfield:CreateWindow({
 local Teleports = Window:CreateTab("📩 Teleports", nil)
 local Section = Teleports:CreateSection("Teleports")
 
-local Button = Teleports:CreateButton({
+local Teleports = Teleports:CreateButton({
    Name = "Bowrey Cubemart",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1598.35205, 216.655014, -1534.57629, 1, 0, 0, 0, 1, 0, 0, 0, 1)
    end,
 })
 
-local Button = Teleports:CreateButton({
+local Teleports = Teleports:CreateButton({
    Name = "Mersea CD",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6470.3999, 231.996841, 3019.69971, 1, 0, 0, 0, 1, 0, 0, 0, 1)
    end,
 })
 
-local Button = Teleports:CreateButton({
+local Teleports = Teleports:CreateButton({
    Name = "Bowrey CD",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1810.91406, 221.255737, -1328.6333, 1, 0, 0, 0, 1, 0, 0, 0, 1)
    end,
 })
 
-local Button = Teleports:CreateButton({
+local Teleports = Teleports:CreateButton({
    Name = "Woodbury CD",
    Callback = function()
  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10027.8262, 240.156189, 578.294678, 1, 0, 0, 0, 1, 0, 0, 0, 1)
    end,
 })
 
-local Button = Teleports:CreateButton({
+local Teleports = Teleports:CreateButton({
    Name = "Port CD",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-117.509399, 209.599991, 3059.4436, 0.0584034771, 8.03887659e-08, -0.998293042, -2.01320649e-08, 1, 7.93484247e-08, 0.998293042, 1.54634776e-08, 0.0584034771)
@@ -73,9 +73,9 @@ local Button = Teleports:CreateButton({
 })
 
 local Delears = Window:CreateTab("🦲 Dealers", nil)
-local Section = Teleports:CreateSection("Teleports")
+local Section = Delears:CreateSection("Teleports")
 
-local Button = Dealers:CreateButton({
+local Delears = Dealers:CreateButton({
    Name = "Port Seller",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(811.597839, 197.074982, 2821.43188, 0.0564803518, -3.56545904e-08, -0.998403728, -3.0888831e-08, 1, -3.74589959e-08, 0.998403728, 3.29552208e-08, 0.0564803518)
@@ -86,37 +86,37 @@ local Button = Dealers:CreateButton({
 
 
 local Robbing = Window:CreateTab("💰 Robbing", nil)
-local Section = Teleports:CreateSection("Teleports")
+local Section = Robbing:CreateSection("Teleports")
 
-local Button = Robbing:CreateButton({
+local Robbing = Robbing:CreateButton({
    Name = "MNG Base",
    Callback = function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1988.57935, 225.078323, 4476.59277, -0.0559921935, 1.04535092e-09, 0.998431206, -1.02757021e-07, 1, -6.80962486e-09, -0.998431206, -1.02977104e-07, -0.0559921935)
    end,
 })
 
-local Button = Robbing:CreateButton({
+local Robbing = Robbing:CreateButton({
    Name = "PARK YOUR CAR HERE!",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9828.9082, 232.556091, 875.247986, -0.99941504, 3.2925942e-09, 0.0341997519, 2.49230081e-09, 1, -2.34431905e-08, -0.0341997519, -2.33442403e-08, -0.99941504)
    end,
 })
 
-local Button = Robbing:CreateButton({
+local Robbing = Robbing:CreateButton({
    Name = "Lockpick Dealer",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-503.032654, 211.445923, -1312.66602, -0.00507884612, 4.44006831e-10, 0.999987125, 1.7484443e-07, 1, 4.44006831e-10, -0.999987125, 1.7484443e-07, -0.00507884612)
    end,
 })
 
-local Button = Robbing:CreateButton({
+local Robbing = Robbing:CreateButton({
    Name = "Lockpick Dealer 2",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-293.427307, 209.097504, 3301.65674, 0.98310864, 1.89121288e-08, 0.183023065, -3.02183736e-08, 1, 5.89860818e-08, -0.183023065, -6.35203818e-08, 0.98310864)
    end,
 })
 
-local Button = Robbing:CreateButton({
+local Robbing = Robbing:CreateButton({
    Name = "Kill player",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1, -1, -1, 1, 0, 0, 0, 1, 0, 0, 0, 1)
