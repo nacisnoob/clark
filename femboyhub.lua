@@ -72,10 +72,10 @@ local Button = Teleports:CreateButton({
    end,
 })
 
-local Delears = Window:CreateTab("🦲 Dealers", nil)
-local Section = Delears:CreateSection("Teleports")
+local Dealer = Window:CreateTab("🤑 Dealer", nil)
+local Section = Dealer:CreateSection("Dealer")
 
-local Button = Dealers:CreateButton({
+local Button = Dealer:CreateButton({
    Name = "Port Seller",
    Callback = function()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(811.597839, 197.074982, 2821.43188, 0.0564803518, -3.56545904e-08, -0.998403728, -3.0888831e-08, 1, -3.74589959e-08, 0.998403728, 3.29552208e-08, 0.0564803518)
@@ -86,7 +86,7 @@ local Button = Dealers:CreateButton({
 
 
 local Robbing = Window:CreateTab("💰 Robbing", nil)
-local Section = Robbing:CreateSection("Teleports")
+local Section = Robbing:CreateSection("Robbing")
 
 local Button = Robbing:CreateButton({
    Name = "MNG Base",
