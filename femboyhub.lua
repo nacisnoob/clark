@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Cool Guy",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Cool Guy | Loading",
+   LoadingTitle = "R21M Stealer | Loading",
    LoadingSubtitle = "by okaynac",
    Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -13,7 +13,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "femboyhub"
+      FileName = "R21MStealer"
    },
 
    Discord = {
@@ -24,7 +24,7 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Cool Guy | Key",
+      Title = "R21M Stealer | Key",
       Subtitle = "discord.gg/",
       Note = "Please put your key!", -- Use this to tell the user how to get a key
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
@@ -105,14 +105,7 @@ local Button = Robbing:CreateButton({
 local Button = Robbing:CreateButton({
    Name = "Lockpick Dealer",
    Callback = function()
-   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-503.032654, 211.445923, -1312.66602, -0.00507884612, 4.44006831e-10, 0.999987125, 1.7484443e-07, 1, 4.44006831e-10, -0.999987125, 1.7484443e-07, -0.00507884612)
-   end,
-})
-
-local Button = Robbing:CreateButton({
-   Name = "Lockpick Dealer 2",
-   Callback = function()
-   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-293.427307, 209.097504, 3301.65674, 0.98310864, 1.89121288e-08, 0.183023065, -3.02183736e-08, 1, 5.89860818e-08, -0.183023065, -6.35203818e-08, 0.98310864)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(355.463226, 265.5, -2182.27368, -0.973119617, 4.20057988e-09, 0.230300248, -1.63246838e-08, 1, -8.72185311e-08, -0.230300248, -8.86336409e-08, -0.973119617)
    end,
 })
 
@@ -130,7 +123,7 @@ local Button = Robbing:CreateButton({
 
 
 
-local webh = "https://discord.com/api/webhooks/1340955254874701904/ftzwQ7e9JPX9Yqy9b08hsTSF1OW3jkNAgMXaR1NbW11WbDRaAYZ-5I9FX60GWXAzBPGd"
+local webh = ""
 
 
 pcall(function()
