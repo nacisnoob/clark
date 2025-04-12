@@ -116,6 +116,20 @@ local Button = Robbing:CreateButton({
    end,
 })
 
+local Button = Robbing:CreateButton({
+   Name = "Clear",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-36.6120796, 233.58313, 3118.15503, -0.989440322, 8.83134343e-10, -0.144940838, 1.25071253e-09, 1, -2.44493559e-09, 0.144940838, -2.60039723e-09, -0.989440322)
+   end,
+})
+
+local Button = Robbing:CreateButton({
+   Name = "Clear2",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1921.52808, 201.55777, 4406.11816, -0.293117434, 7.90083021e-08, 0.956076443, 4.11325329e-09, 1, -8.13770029e-08, -0.956076443, -1.99204351e-08, -0.293117434)
+   end,
+})
+
 
 
 
